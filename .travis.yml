@@ -4,7 +4,7 @@ services:
   - docker
   
 before_install:
-  - docker build -t RazieL/docker-react -f Dockerfile.dev .
+  - docker build -t mietekzul/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true RazieL/docker-react npm run test  
+  - docker run -e CI=true mietekzul/docker-react npm run test  
