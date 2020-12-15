@@ -11,7 +11,7 @@ function App() {
 		  <br></br>
 		  <b> PSUJEMY </b>
 		  <br></br>
-		  ale testy coś nie idom
+		  Tym razem zmiana na feature branch.
         </p>
         <a
           className="App-link"
